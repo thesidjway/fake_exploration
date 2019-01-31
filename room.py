@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def room_init():
     room_basic = np.zeros((100, 100, 100))  # unit is cm, minimum block size is 1cm3
     room_basic[70:100, 80:85, 0:22] = 1
