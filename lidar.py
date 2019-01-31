@@ -6,8 +6,8 @@ import math
 
 class Lidar(object):
     def __init__(self):
-        self.vertmin = -9
-        self.vertmax = 10
+        self.vertmin = -7
+        self.vertmax = 8
         self.horimin = 0
         self.horimax = 360
         self.horires = 5

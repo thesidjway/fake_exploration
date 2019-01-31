@@ -11,7 +11,7 @@ class FakeLocalization(object):
     def get_curr_estimate(self):
         return self.curr_x, self.curr_y, self.curr_z
 
-    def update_position(self,new_x, new_y, new_z):
+    def update_position(self, new_x, new_y, new_z):
         self.curr_x = new_x
         self.curr_y = new_y
         self.curr_z = new_z
